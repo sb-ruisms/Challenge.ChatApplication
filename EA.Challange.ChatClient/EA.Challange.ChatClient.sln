@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EA.Challange.ChatClient", "EA.Challange.ChatClient\EA.Challange.ChatClient.csproj", "{C8288B1C-EBD7-466F-83DF-21AEAD88841C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EA.Challange.ChatClient.Contracts", "EA.Challange.ChatClient.Contracts\EA.Challange.ChatClient.Contracts.csproj", "{B6FFBEA4-2D35-4563-9F3A-04C2BB34011E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EA.Challange.ChatClient.Service", "EA.Challange.ChatClient.Service\EA.Challange.ChatClient.Service.csproj", "{9495F5EC-A776-405F-A429-A23C561DDF49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EA.Challange.ChatClient.Tests", "EA.Challange.ChatClient.Tests\EA.Challange.ChatClient.Tests.csproj", "{DEDFE3C3-A274-40E5-A5B3-DEC4DAD1F614}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EA.Challange.ChatClient.Models", "EA.Challange.ChatClient.Models\EA.Challange.ChatClient.Models.csproj", "{0E2B509D-0718-404C-8BF1-D9352690EE04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8288B1C-EBD7-466F-83DF-21AEAD88841C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8288B1C-EBD7-466F-83DF-21AEAD88841C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8288B1C-EBD7-466F-83DF-21AEAD88841C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8288B1C-EBD7-466F-83DF-21AEAD88841C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6FFBEA4-2D35-4563-9F3A-04C2BB34011E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6FFBEA4-2D35-4563-9F3A-04C2BB34011E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6FFBEA4-2D35-4563-9F3A-04C2BB34011E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6FFBEA4-2D35-4563-9F3A-04C2BB34011E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9495F5EC-A776-405F-A429-A23C561DDF49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9495F5EC-A776-405F-A429-A23C561DDF49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9495F5EC-A776-405F-A429-A23C561DDF49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9495F5EC-A776-405F-A429-A23C561DDF49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEDFE3C3-A274-40E5-A5B3-DEC4DAD1F614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEDFE3C3-A274-40E5-A5B3-DEC4DAD1F614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEDFE3C3-A274-40E5-A5B3-DEC4DAD1F614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEDFE3C3-A274-40E5-A5B3-DEC4DAD1F614}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E2B509D-0718-404C-8BF1-D9352690EE04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E2B509D-0718-404C-8BF1-D9352690EE04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E2B509D-0718-404C-8BF1-D9352690EE04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E2B509D-0718-404C-8BF1-D9352690EE04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
