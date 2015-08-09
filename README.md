@@ -1,6 +1,7 @@
 # EA.Challenge.ChatApplication
 EA Challenge chat application and self learning
 
+![Alt text](https://github.com/banerjeesaikat6/EA.Challenge.ChatApplication/blob/master/EA.Challange.ChatClient/EA.Challange.ChatClient/image/EA.Challenge.ChatClient-Screenshot.JPG "Chat Client")
 
 # ChatAPI 
 This is a console based Self Hosted Web API. The port number can be manipulated in the App.Config here: <br />
