@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EA.Challenge.ChatAPI", "EA.Test.ChatAPI\EA.Challenge.ChatAPI.csproj", "{66F51051-884B-42C7-AD64-47F51EDE4DAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EA.Challenge.ChatAPI.Models", "EA.Test.ChatAPI.Models\EA.Challenge.ChatAPI.Models.csproj", "{E03B2D28-84D9-46E0-8ADD-20E8A8F10733}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EA.Challenge.ChatAPI.Contracts", "EA.Test.ChatAPI.Contracts\EA.Challenge.ChatAPI.Contracts.csproj", "{FEDBD558-A9BE-47BA-93AE-396FAB106A44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EA.Challenge.ChatAPI.Service", "EA.Test.ChatAPI.Service\EA.Challenge.ChatAPI.Service.csproj", "{C2DE2066-65E5-4175-8848-E70EE9E072B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EA.Challenge.ChatAPI.Tests", "EA.Test.ChatAPI.Tests\EA.Challenge.ChatAPI.Tests.csproj", "{63328B78-7492-4F6A-ABDB-C1873B399DCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66F51051-884B-42C7-AD64-47F51EDE4DAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66F51051-884B-42C7-AD64-47F51EDE4DAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66F51051-884B-42C7-AD64-47F51EDE4DAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66F51051-884B-42C7-AD64-47F51EDE4DAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E03B2D28-84D9-46E0-8ADD-20E8A8F10733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E03B2D28-84D9-46E0-8ADD-20E8A8F10733}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E03B2D28-84D9-46E0-8ADD-20E8A8F10733}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E03B2D28-84D9-46E0-8ADD-20E8A8F10733}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEDBD558-A9BE-47BA-93AE-396FAB106A44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEDBD558-A9BE-47BA-93AE-396FAB106A44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEDBD558-A9BE-47BA-93AE-396FAB106A44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEDBD558-A9BE-47BA-93AE-396FAB106A44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2DE2066-65E5-4175-8848-E70EE9E072B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2DE2066-65E5-4175-8848-E70EE9E072B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2DE2066-65E5-4175-8848-E70EE9E072B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2DE2066-65E5-4175-8848-E70EE9E072B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63328B78-7492-4F6A-ABDB-C1873B399DCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63328B78-7492-4F6A-ABDB-C1873B399DCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63328B78-7492-4F6A-ABDB-C1873B399DCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63328B78-7492-4F6A-ABDB-C1873B399DCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
