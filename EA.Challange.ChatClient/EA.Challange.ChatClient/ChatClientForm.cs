@@ -157,6 +157,7 @@ namespace EA.Challange.ChatClient
                             DateTime.Now.ToString("M/d/yyyy hh:mm:ss"),
                             txtChattingWith.Text, " - is not connected anymore."));
 
+                    lbChatWindow.SelectedIndex = lbChatWindow.Items.Count - 1;
                     cbxSelectChatBuddy.DataSource = null;
                     txtChattingWith.Text = string.Empty;
                     lblCurrentBuddyId.Text = string.Empty;
@@ -165,6 +166,7 @@ namespace EA.Challange.ChatClient
                 {
                     lbChatWindow.Items.Add(string.Format("[{0}]: {1}>> {2}", DateTime.Now.ToString("M/d/yyyy hh:mm:ss"),
                                     txtUsername.Text, txtMessage.Text));
+                    lbChatWindow.SelectedIndex = lbChatWindow.Items.Count - 1;
                     txtMessage.Text = string.Empty;
                 }
             }
