@@ -305,5 +305,18 @@ namespace EA.Challange.ChatClient
             Application.Exit();
         }
 
+        /// <summary>
+        /// Text key down Enter to trigger click
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtMessage_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            { 
+                btnSend.PerformClick();
+            }
+        }
+
     }
 }

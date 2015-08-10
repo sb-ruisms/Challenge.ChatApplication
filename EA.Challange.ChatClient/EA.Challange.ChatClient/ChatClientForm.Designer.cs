@@ -239,6 +239,7 @@ namespace EA.Challange.ChatClient
             this.txtMessage.Name = "txtMessage";
             this.txtMessage.Size = new System.Drawing.Size(495, 20);
             this.txtMessage.TabIndex = 2;
+            this.txtMessage.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtMessage_KeyDown);
             // 
             // lblEnterChat
             // 
